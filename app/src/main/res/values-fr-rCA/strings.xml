@@ -3,4 +3,15 @@
     <string name="app_name">AndroidLabs</string>
     <string name="hello_message">Bonjour!</string>
     <string name="ButtonText">Je suis un button</string>
+    <string name="EmailPrompt">" Entrez votre adresse email:"</string>
+    <string name="EmailInput">" Tapez email ici"</string>
+    <string name="PasswordPrompt">" Tapez votre mot de passe:"</string>
+    <string name="Login">"S'IDENTIFIER "</string>
+    <string name="Profile">"Votre profil "</string>
+    <string name="Name">Votre nom:</string>
+    <string name="NameInput">" Entrez votre nom"</string>
+    <string name="Email">Votre email:</string>
+    <string name="EmailInput2">Entrez votre email</string>
+    <string name="Picture">Votre photo:</string>
+    <string name="PicturePrompt">" Cliquez sur le bouton ci-dessus pour prendre une photo"</string>
 </resources>
