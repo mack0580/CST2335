@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         emailTextLogin.setText(prefs.getString("emailAddress", ""))
         loginButton.setOnClickListener {
             Intent(this, ProfileActivity::class.java)
-                .putExtra("emailAddress", prefs.getString("emailAddress", ""))
+                .putExtra("emailAddress", emailTextLogin.text.toString())
                 .also {
                 startActivity(it)
             }
